@@ -82,7 +82,7 @@ input:hover {
   font-weight: bold;
   position: absolute;
   top: 30px;
-  right: 90px;
+  right: 250px;
 }
 
 .sign-in:hover {
@@ -102,23 +102,17 @@ input:hover {
 }
 
 .nav {
-  font-family: Helvetica;
-  font-size: 12px;
-  font-style: italic;
-  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  /* font-style: italic; */
+  margin-left: 60px;
 }
 
 p {
   display: inline-grid;
-  grid-template-columns: 120px;
+  grid-template-columns: 150px;
   /* justify-content: space-around;
   align-content: space-between; */
-}
-
-.nav:after {
-  content: " ";
-  display: block;
-  /* border: 1px solid lightgrey; */
 }
 
 /* .gift::before {
@@ -127,8 +121,9 @@ p {
 
 #gift {
   position: absolute;
-  right: 265px;
+  right: 150px;
   top: 89px;
+  padding: 0;
 }
 
 .sub-bar {
@@ -170,4 +165,24 @@ li {
   top: 280px;
   left: 40px;
   position: absolute;
+}
+
+.sort {
+  /* display: flex;
+  justify-content: flex-end;
+  top: 100px; */
+}
+
+.wrapper {
+  width: 850px;
+  margin: auto;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px;
+  margin-left: 55px;
+  position: absolute;
+  top: 220px;
+  left: 300px;
 }
